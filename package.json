@@ -21,6 +21,7 @@
     "README*.md"
   ],
   "scripts": {
+    "prepublishOnly": "npm run build",
     "openapi-ts": "openapi-ts",
     "build": "rimraf dist && openapi-ts && tsc",
     "clean": "rimraf dist"
