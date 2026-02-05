@@ -1,6 +1,6 @@
 {
   "name": "@seerapi/client",
-  "version": "103.2.1",
+  "version": "103.2.2",
   "description": "SeerAPI TypeScript SDK, generated with @hey-api/openapi-ts",
   "license": "MIT",
   "author": "Nattsu39 <Nattsu39@outlook.com> (https://github.com/Nattsu39)",
