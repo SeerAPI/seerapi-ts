@@ -13,7 +13,9 @@
   ],
   "type": "module",
   "exports": {
-    ".": "./dist/client/index.js"
+    ".": "./dist/client/index.js",
+    "./db": "./dist/db/index.js",
+    "./client": "./dist/client/index.js"
   },
   "files": [
     "dist/**/*",
@@ -29,11 +31,15 @@
   "devDependencies": {
     "@hey-api/openapi-ts": "0.90.1",
     "@types/node": "^24.1.0",
+    "drizzle-kit": "^1.0.0-beta.14-a36c63d",
     "rimraf": "^6.0.1",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3"
   },
   "dependencies": {
-    "axios": "^1.13.2"
+    "@libsql/client": "^0.17.0",
+    "axios": "^1.13.2",
+    "dotenv": "^17.2.3",
+    "drizzle-orm": "^1.0.0-beta.14-a36c63d"
   }
 }
