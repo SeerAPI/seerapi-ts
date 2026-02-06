@@ -15,6 +15,7 @@
   "exports": {
     ".": "./dist/client/index.js",
     "./db": "./dist/db/index.js",
+    "./db/*": "./dist/db/*.js",
     "./client": "./dist/client/index.js"
   },
   "files": [
