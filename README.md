@@ -1,3 +1,5 @@
+该仓库已迁移至 https://github.com/SeerAPI/seerapi
+
 # SeerAPI TypeScript SDK
 
 这是 SeerAPI 的官方 TypeScript SDK，由 `@hey-api/openapi-ts` 自动生成。它提供了与 SeerAPI 交互的类型安全客户端，并集成了 Drizzle ORM 以支持本地 SQLite 数据库操作。
